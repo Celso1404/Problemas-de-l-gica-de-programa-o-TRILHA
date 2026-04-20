@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GN | 04</title>
+
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <div class="box-nav">
+      <h1>EXERCÍCIO #04</h1>
+      <h2>Celso Bitello</h2>  
+    </div>
+
+    <div class="box">
+        <p>Leia dois números</p>
+        <input type="text" class="num" id="numero1" placeholder="Digite o valor A">
+        <br><br>
+        <input type="text" class="num" id="numero2" placeholder="Digite o valor B">
+        <br><br>
+        <input type="radio" id="adicao" name="operation" value="Adição">
+        <label for="adicao">Adição</label>
+        <br><br>
+        <input type="radio" id="subtracao" name="operation" value="Subtração">
+        <label for="adicao">Subtração</label>
+        <br><br>
+        <input type="radio" id="multiplicacao" name="operation" value="Multiplicação">
+        <label for="adicao">Multiplicação</label>
+        <br><br>
+        <input type="radio" id="divisao" name="operation" value="Divisão">
+        <label for="adicao">Divisão</label>
+        <br><br>
+        <button onclick="calcular()">Enviar</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
